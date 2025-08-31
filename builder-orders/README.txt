@@ -13,7 +13,4 @@ Build/Run (Starter)
   javac com/example/orders/*.java TryIt.java
   java TryIt
 
-Build/Run (Solution)
-  cd builder-orders/solution/src
-  javac com/example/orders/*.java TryIt.java
-  java TryIt
+

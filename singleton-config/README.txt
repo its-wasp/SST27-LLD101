@@ -18,7 +18,4 @@ Build/Run (Starter)
   javac com/example/config/*.java
   java com.example.config.App
 
-Build/Run (Solution)
-  cd singleton-config/solution/src
-  javac com/example/config/*.java
-  java com.example.config.App
+

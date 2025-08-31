@@ -14,7 +14,3 @@ Build/Run (Starter demo)
   javac com/example/profiles/*.java TryIt.java
   java TryIt
 
-Build/Run (Solution demo)
-  cd immutable-profiles/solution/src
-  javac com/example/profiles/*.java TryIt.java
-  java TryIt
