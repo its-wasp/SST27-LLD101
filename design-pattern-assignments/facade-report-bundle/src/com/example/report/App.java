@@ -12,5 +12,9 @@ public class App {
         log.log("exported " + zip);
         System.out.println("DONE " + zip);
         // TODO: Replace the above with a single call to ReportBundleFacade.export(...)
+        ReportBundleFacade facade = new ReportBundleFacade(jw, z, log);
+        Path zip2 = facade.export(data, Path.of("out"), "report2");
+        System.out.println("DONE " + zip2);
+
     }
 }
